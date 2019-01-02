@@ -1,0 +1,46 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://environment/tilesets/interior.tsx" type="TileSet" id=1]
+
+[node name="walls" type="TileMap" index="0"]
+
+mode = 0
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 32, 32 )
+cell_quadrant_size = 16
+cell_custom_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+cell_half_offset = 2
+cell_tile_origin = 0
+cell_y_sort = false
+cell_clip_uv = false
+collision_use_kinematic = false
+collision_friction = 1.0
+collision_bounce = 0.0
+collision_layer = 1
+collision_mask = 1
+occluder_light_mask = 1
+format = 1
+tile_data = PoolIntArray( 0, 33, 0, 1, 35, 0, 2, 35, 0, 3, 35, 0, 4, 35, 0, 5, 35, 0, 6, 35, 0, 7, 35, 0, 8, 35, 0, 9, 35, 0, 10, 35, 0, 11, 35, 0, 12, 32, 0, 65536, 20, 0, 65548, 18, 0, 131072, 20, 0, 131084, 18, 0, 196608, 20, 0, 196620, 18, 0, 262144, 20, 0, 262156, 18, 0, 327680, 20, 0, 327692, 18, 0, 393216, 20, 0, 393228, 18, 0, 458752, 20, 0, 458764, 18, 0, 524288, 17, 0, 524289, 3, 0, 524290, 3, 0, 524291, 3, 0, 524292, 3, 0, 524293, 3, 0, 524295, 3, 0, 524296, 3, 0, 524297, 3, 0, 524298, 3, 0, 524299, 3, 0, 524300, 16, 0 )
+_sections_unfolded = [ "Cell" ]
+
+[node name="TileMap" type="TileMap" parent="." index="0"]
+
+mode = 0
+tile_set = null
+cell_size = Vector2( 64, 64 )
+cell_quadrant_size = 16
+cell_custom_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+cell_half_offset = 2
+cell_tile_origin = 0
+cell_y_sort = false
+cell_clip_uv = false
+collision_use_kinematic = false
+collision_friction = 1.0
+collision_bounce = 0.0
+collision_layer = 1
+collision_mask = 1
+occluder_light_mask = 1
+format = 1
+tile_data = PoolIntArray(  )
+
+
